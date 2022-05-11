@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c6e4e0f4887b5441b2f874a623172e9, type: 3}
+  m_Name: IcePlant 1
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: 215725e083d06a94bb2d4c97e5c9c72e, type: 2}
+  - {fileID: 2100000, guid: e4216c2d5e072d04799697190b080259, type: 2}
+  plantPrefabe: {fileID: 2526825151581108538, guid: 1c87ca16adbf8ae458e385e1547cc15f,
+    type: 3}
+  mineral_num: 1
+  energy_num: 10
+  food_num: 0
+  type: 2
+  infoText: "\u8FD9\u662F\u4E00\u9897\u7194\u878D\u7684\u884C\u661F\uFF0C\u9AD8\u6E29\u4E14\u5BCC\u542B\u70ED\u80FD"

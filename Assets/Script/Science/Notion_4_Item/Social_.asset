@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7e9c4ccf8b89446ad8af017ea1edf7, type: 3}
+  m_Name: Social_
+  m_EditorClassIdentifier: 
+  ScienceName: "\u8282\u4FED\u54C1\u5FB7"
+  Infotext: "\u4EBA\u53E3\u98DF\u7269\u6D88\u8017\u51CF\u5C11"
+  round: 0
+  level: 0
+  man_Reduce_Farm: 0.2
+  man_Reduce_Produce: 0
+  man_Increace_SciencePoint: 0
+  type: 1

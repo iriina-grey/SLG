@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3801bab7a0ce5ea499308b12fc1c1a38, type: 3}
+  m_Name: ShengWu_1
+  m_EditorClassIdentifier: 
+  ScienceName: "\u6DB2\u57F9\u6539\u826F"
+  Infotext: 2
+  round: 1
+  level: 0
+  farmProduce: 1
+  framSpend_Energy: 0
+  up_farmProduce: 0
+  pup_farmProduce: 0
+  down_framSpend_Energy: 0
+  type: 1

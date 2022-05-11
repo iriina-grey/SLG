@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: IcePlanet_03_gamma
+  m_Shader: {fileID: 4800000, guid: 8e9828fbd179e3d40a48034fe1ca99c7, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AtmosphereMap:
+        m_Texture: {fileID: 2800000, guid: 34028a0782a87724eb97fcf124ca2869, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CityLightMap:
+        m_Texture: {fileID: 2800000, guid: 10e03b142032f9e48b5feffb7a29a5f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CityLightMaskMap:
+        m_Texture: {fileID: 2800000, guid: 666543ea60af32b4b87f42b382786528, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CityLightUVMap:
+        m_Texture: {fileID: 2800000, guid: 12159c864075b6c4ca8da3247444a9c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Clouds:
+        m_Texture: {fileID: 2800000, guid: 2b2824e7ba6dc064faa2b173366f82df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudsCapMap:
+        m_Texture: {fileID: 2800000, guid: 6f60c0f82c8964f4780832c4d6fb5fbb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudsMap:
+        m_Texture: {fileID: 2800000, guid: d3c766fb5aa7ac048993e245325d839c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorMap:
+        m_Texture: {fileID: 2800000, guid: 22ffd0c1f0d8da5459eb8fce5726438e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMap:
+        m_Texture: {fileID: 2800000, guid: 6d1298a6040572b4e9fc144e6c5042f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientMap:
+        m_Texture: {fileID: 2800000, guid: 20fb3fab602c05c44a31867aee0cfe1d, type: 3}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 2800000, guid: 461fb2af05b70a04db9d87c1269e49c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeigthMap:
+        m_Texture: {fileID: 2800000, guid: 3690067bdd9a7ba488685e9eedbbcb64, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 71e7f564147d79f41a135c3000170e52, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 2c905a550b9c7474fa5484eace731cab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_copy:
+        m_Texture: {fileID: 2800000, guid: 6565aba40d1b1c349b01948ff2c875aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Occlussion:
+        m_Texture: {fileID: 2800000, guid: 6565aba40d1b1c349b01948ff2c875aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OceanMap:
+        m_Texture: {fileID: 2800000, guid: 51f7fc36374353d44969a110b4ffc7be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OceanMask:
+        m_Texture: {fileID: 2800000, guid: 9811a814586be7a4094aa85ebed1b3b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PoleGradient:
+        m_Texture: {fileID: 2800000, guid: ee0b2274e96423e4b8d061ca5b3918f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SunsetMap:
+        m_Texture: {fileID: 2800000, guid: ffc91edc81d5c6d48bf283f869b20516, type: 3}
+        m_Scale: {x: 0, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SurfaceNormalMap:
+        m_Texture: {fileID: 2800000, guid: 60ed4462d9c7b96499eb1a4ed5db49bf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterDepth:
+        m_Texture: {fileID: 2800000, guid: 12f825dcb97ef524c96bb02e37aea3ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_10860:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_2:
+        m_Texture: {fileID: 2800000, guid: 64ba62ca453398f459ea337c8d4527d5, type: 3}
+        m_Scale: {x: 6, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _node_225:
+        m_Texture: {fileID: 2800000, guid: 64ba62ca453398f459ea337c8d4527d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_236:
+        m_Texture: {fileID: 2800000, guid: ee0b2274e96423e4b8d061ca5b3918f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_9240:
+        m_Texture: {fileID: 2800000, guid: 51f7fc36374353d44969a110b4ffc7be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _213: 1.54
+    - _CloudShadowsMult: 1
+    - _CloudsAnimation: 0.05
+    - _CloudsBrightness: 1.5
+    - _CloudsShadowBrightness: 0.54
+    - _CloudsShadows: 3.79
+    - _CloudsSunset: 1
+    - _CloudsTransparency: 1.95
+    - _CloudsWrap: 3.24
+    - _ColorPassTrough: 5
+    - _DesertCoverage: 0.096428566
+    - _DesertFactors: 5.357145
+    - _DesertSharpness: 62.5
+    - _DetailStr: 0.07
+    - _DetailTile: 4.535714
+    - _DiffusePow: 1
+    - _DiffusePower: 1
+    - _FresnelLandMult: 0.1
+    - _FresnelLandPow: 2.01
+    - _FresnelLandStrength: -0.8
+    - _FresnelMult: 0
+    - _FresnelPow: 40
+    - _HeightTile: 0
+    - _Heigth: -0.000000003193106
+    - _HeigthTile: 2.928571
+    - _Heigthmask: 0.32142857
+    - _IceDetail: 0.4
+    - _LandFresnelPower_copy: 5.8
+    - _LandFresnelStrength_copy: 0.22
+    - _MountainCoverage: 0.021428572
+    - _MountainFactors: 42.857143
+    - _MountainsCoverage: 0.039285716
+    - _MountainsSharpness: 12.500001
+    - _NormalHeight: 0
+    - _NormalHeigth: 0.27
+    - _NormalTile: 4.01
+    - _OcclusionMult: 0.29
+    - _Parallax: 0.07
+    - _Population: 0.5
+    - _Shore: 0.52
+    - _ShoreFactor: 0.58
+    - _SpecularHeightOff: 1.84
+    - _SpecularHeightOn: -1.2
+    - _SpecularMult: 0
+    - _SpecularPow: -10
+    - _SunsetFactor: 1
+    - _TextureTile: 4.375
+    - _TextureTile_copy: 1
+    - _VegetationCoverage: 0.08214286
+    - _VegetationFactors: 7.142857
+    - _VegetationMult: 0.4
+    - _VegetationSharpness: 10
+    - _WaterDetail: 17.27
+    - _WaterDetailA: 1.2
+    - _WaterDetailB: 8.78
+    - _WaterDetailMult: 15.38
+    - _WaterDetailPow: 1.14
+    - _WaterDetail_copy: 5.55
+    - _WaterFresnel: 2.61
+    - _WaterFresnelMult: 0
+    - _WaterFresnelPow: 2.68
+    - _WaterFresnelPower: 1.97
+    - _WaterFresnelStrength: 0.02
+    - _WaterLevel: 0
+    - _WaterSpecularMult: 0.26
+    - _WaterSpecularPow: 1.89
+    - _WaterSpecularStrength: -0.03
+    - _WaterTile: 3.732143
+    - _node_10006: 0.044642854
+    - _node_10664: 1.05
+    - _node_10675: 1
+    - _node_10724: 16.13
+    - _node_10807: 1
+    - _node_10840: 1
+    - _node_10862: 1
+    - _node_123: 0.4
+    - _node_6835: 3.2499998
+    - _node_7063: -0.1
+    - _node_7173: 10.8
+    - _node_7558: 3
+    - _node_7593: 0.06
+    - _node_7601: 1
+    - _node_7733: 3.77
+    - _node_7767: 0.044642854
+    - _node_7844: 7.17
+    - _node_8005: 7.16
+    - _node_8540: 75.1
+    - _node_8768: 1.97
+    - _node_8780: 1.17
+    - _node_8803: 2.61
+    - _node_9272: 139.69
+    - _node_9306: 1
+    - _node_9325: 0.4
+    - _node_9754: 0.026785713
+    m_Colors:
+    - _CityLightColor: {r: 0.7941176, g: 0.7445054, b: 0.467128, a: 1}
+    - _CloudsColor: {r: 1, g: 0.995132, b: 0.8235294, a: 1}
+    - _CloudsShadowColor: {r: 1, g: 1, b: 1, a: 0.99215686}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DeepWaterColor: {r: 0.12683824, g: 0.23471414, b: 0.25, a: 1}
+    - _DesertColor: {r: 0.6544118, g: 0.6033072, b: 0.38975996, a: 1}
+    - _FresnelColor: {r: 1, g: 0.55385333, b: 0.3897059, a: 1}
+    - _IceFactors: {r: 0.91, g: 0, b: 0, a: 0}
+    - _IceRampColorHigh: {r: 0.29227942, g: 0.6552997, b: 0.75, a: 1}
+    - _IceRampColorLow: {r: 0.25086504, g: 0.39013952, b: 0.42647058, a: 1}
+    - _IceRampColorMed: {r: 0.6764706, g: 0.4327422, b: 0.4327422, a: 1}
+    - _IceRampColorMid: {r: 0.6838235, g: 0.9345859, b: 1, a: 1}
+    - _LandSpecularColor: {r: 0, g: 0.65040565, b: 0.7794118, a: 1}
+    - _MountainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MountainsColor: {r: 0.75735295, g: 0.75735295, b: 0.75735295, a: 1}
+    - _ShalloWaterColor: {r: 0, g: 0.95862055, b: 1, a: 1}
+    - _ShallowWaterColor: {r: 0.25692043, g: 0.37386358, b: 0.39705884, a: 1}
+    - _ShoreColor: {r: 0.13494809, g: 0.15928908, b: 0.17647058, a: 1}
+    - _SpecularColor: {r: 0.9632353, g: 0.8833547, b: 0.7295091, a: 1}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 0.53703505, g: 0.86339366, b: 0.9485294, a: 1}
+    - _TintColorA: {r: 0, g: 0.3246468, b: 0.4852941, a: 1}
+    - _TintColorB: {r: 0.6911765, g: 0.97444224, b: 1, a: 1}
+    - _Tintolor: {r: 1, g: 0.88988936, b: 0.6544118, a: 1}
+    - _VegetationColor: {r: 0.5661765, g: 1, b: 0.58712125, a: 1}
+    - _WaterColor: {r: 0, g: 0.2353465, b: 0.375, a: 1}
+    - _WaterSpecularColor: {r: 0.6698746, g: 0.7593742, b: 0.77205884, a: 1}
+    - _landcolor: {r: 0.40103212, g: 0.4852941, b: 0.103481844, a: 1}
+    - _node_7851: {r: 0.20934255, g: 0.8897059, b: 0.8897059, a: 1}
+    - _node_7851_copy: {r: 0, g: 0.3322569, b: 0.5294118, a: 1}
+    - _watercolor: {r: 0, g: 0.4082688, b: 0.6102941, a: 1}

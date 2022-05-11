@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b19af76989ae3649809594767a96ac4, type: 3}
+  m_Name: Inductry_
+  m_EditorClassIdentifier: 
+  ScienceName: "\u5DE5\u4E1A\u7406\u8BBA"
+  Infotext: "\u5DE5\u5382\u751F\u4EA7\u91CF+1"
+  round: 1
+  level: 0
+  up_factoryProduce: 1
+  pup_factoryProduce: 0
+  down_factory_Energy: 0
+  down_factory_Mimeral: 0
+  down_BuildSpend: 0
+  type: 1

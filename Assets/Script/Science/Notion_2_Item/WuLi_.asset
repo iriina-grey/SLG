@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76788bbf82d27ed43b86ef36ffb85bed, type: 3}
+  m_Name: WuLi_
+  m_EditorClassIdentifier: 
+  ScienceName: "\u5927\u4E00\u7EDF\u7406\u8BBA"
+  Infotext: "\u7814\u7A76\u6240\u751F\u4EA7\u6548\u7387\u589E\u52A050%"
+  round: 1
+  level: 0
+  up_laboratoryProduce: 0.5
+  pup_laboratoryProduce: 0
+  down_laboratory_Energy: 0
+  up_powerStationProduce: 0
+  pup_powerStationProduce: 0
+  type: 1
